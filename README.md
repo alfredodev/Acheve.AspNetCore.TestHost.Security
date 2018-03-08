@@ -13,7 +13,7 @@ What if you have an easy way to indicate the claims in the request?
 This package implements an authentication middleware and several extension methods to easiy indicate
 the claims for authenticated calls to the WebApi.
 
-In the TestServer startup class you shoud incude the authentication service and add the .Net Core new AUthentication middleware:
+In the TestServer startup class you shoud incude the authentication service and add the .Net Core new Authentication middleware:
 
      public class TestStartup
     {
